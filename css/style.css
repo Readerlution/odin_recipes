@@ -1,0 +1,44 @@
+div.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #dfe1ee;
+}
+
+#title {
+    color:  white;
+    font-family: sans-serif, "Helvetica Neue", Helvetica;
+    font-size: 33px;
+    text-shadow: 3px 3px 2px black;
+    text-align: center;
+}
+
+h1#title {
+    background-color: #4e71ba;
+    margin-top: 0%;
+    padding: 12px;
+}
+
+img.main {
+    border-radius: 10px;
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+    flex: 1;
+}
+
+#title.desc {
+    font-size: 24.5px;
+    text-shadow: 1px 1px 2px black;
+    color: white;
+    background-color: #4e71ba;
+    border: medium dashed #4e71ba;
+    border-radius: 6px;
+    margin: auto;
+    margin-top:15px;
+    padding: 2px;
+}
+
+
+ul.recipe-list {
+
+}
